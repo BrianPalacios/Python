@@ -25,7 +25,7 @@ def verify_card_number(car_number):
     return total % 10 == 0
 
 def main():
-    card_number = '4111-1111-4555-1145'
+    card_number = '4111-1111-4555-1146'
     #str.maketrans() se utiliza para crear una tabla de 
     #traducción que elimina los guiones y espacios de una cadena de texto
     card_translation = str.maketrans({'-': '', ' ': ''})
